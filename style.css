@@ -12,8 +12,9 @@
   --fw-bold: 900;
 
   --clr-bg: #fff;
-  --clr-dark: #303030;
-  --clr-accent: #16e0bd;
+  --clr-dark: #514274;
+  --clr-accent: #c1e4f4;
+  --clr-accent2: #4e328f;
 
   --fs-h1: 3rem;
   --fs-h2: 2.25rem;
@@ -64,16 +65,20 @@ img {
 
 .btn {
   display: inline-block;
-  padding: 0.5em 2.5em;
+  padding: 1em 2.5em;
   background: var(--clr-accent);
-  color: var(--clr-dark);
+  border: 1px var(--clr-accent2);
+  border-radius: 20px;
+  color: var(--clr-accent2);
   text-decoration: none;
   cursor: pointer;
   font-size: 0.8rem;
   text-transform: uppercase;
+  text-shadow: 1px 1.5px white;
   letter-spacing: 2px;
   font-weight: var(--fw-bold);
   transition: transform 200ms ease-in-out;
+  box-shadow: 0 9px 18px 0 #333333, 0 8px 24px 0 #333333;
 }
 
 .btn:hover {
@@ -384,10 +389,14 @@ header {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
+.portfolio a {
+  color: white;
+}
+
 /* footer */
 
 .footer {
-  color: var(--clr-accent);
+  color: var(--clr-accent2);
   text-align: center;
   padding: 1.5em 0;
   font-size: var(--fs-h3);
