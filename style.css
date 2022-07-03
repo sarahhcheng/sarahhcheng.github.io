@@ -96,6 +96,7 @@ h3 {
 
 h1 {
   font-size: var(--fs-h1);
+  color: var(--clr-accent2);
 }
 
 h2 {
@@ -125,6 +126,7 @@ h3 {
   padding: 0.25em 1em;
   font-family: var(--ff-secondary);
   margin-bottom: 1em;
+  color: var(--clr-accent2);
 }
 
 /* Header */
@@ -336,6 +338,10 @@ header {
 
 .about-me__img {
   box-shadow: var(--bs);
+}
+
+.about-me__body {
+  color: var(--clr-accent2);
 }
 
 @media (min-width: 600px) {
