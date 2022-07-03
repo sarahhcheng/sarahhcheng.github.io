@@ -178,8 +178,12 @@ header {
 }
 */
 
-.nav-open {
-  background: red;
+.nav-open .nav {
+  transform: translateX(0);
+}
+
+.nav-open .nav-toggle {
+  position: fixed;
 }
 
 .hamburger {
