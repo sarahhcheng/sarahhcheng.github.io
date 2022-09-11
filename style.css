@@ -161,7 +161,7 @@ h3 {
 
 .section__subtitle {
   margin: 0;
-  font-size: var(--fs-h3);
+  font-size: 1.5vw;
 }
 
 .section__subtitle--intro {
@@ -299,7 +299,9 @@ header {
 }
 
 .section__subtitle--intro {
+  margin-top: 1.5em;
   display: inline-block;
+  text-align: center;
 }
 
 @media (min-width: 600px) {
@@ -312,7 +314,7 @@ header {
       "img title"
       "img subtitle";
     grid-template-columns: min-content max-content;
-    margin-bottom: 6em;
+    min-height: 50vh;
   }
 
   .intro__img {
@@ -326,10 +328,10 @@ header {
     align-self: start;
     grid-column: -1 / 1;
     grid-row: 2;
-    text-align: right;
+    text-align: center;
     position: relative;
-    left: -1.5em;
     width: calc(100% + 1.5em);
+    margin-top: -4em;
   }
 }
 
