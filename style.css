@@ -432,6 +432,7 @@ header {
 .my-work {
   background-color: var(--clr-dark);
   color: var(--clr-bg);
+  min-height: 46vh;
   text-align: center;
 }
 
