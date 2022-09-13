@@ -389,8 +389,11 @@ header {
   margin: 0 auto;
 }
 
-.about-me__img {
+img {
   box-shadow: var(--bs);
+  border-radius: 10px;
+  border: 2px solid var(--clr-dark);
+  box-shadow: #fff;
 }
 
 .about-me__body {
@@ -422,11 +425,11 @@ header {
     padding-right: calc(200px + 4em);
   }
 
-  .about-me__img {
+  /* .about-me__img {
     grid-area: img;
     position: relative;
     z-index: 2;
-  }
+  } */
 }
 
 /* My work */
