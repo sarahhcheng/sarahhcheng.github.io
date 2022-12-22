@@ -396,6 +396,7 @@ img {
   display: inline-block;
   border: none;
   width: 60px;
+  height: 50px;
 }
 
 .section__subtitle--work {
