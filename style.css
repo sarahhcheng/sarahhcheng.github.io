@@ -485,3 +485,15 @@ img {
 .work-title {
   font-size: 30px;
 }
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-me__img {
+  width: 1000px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
