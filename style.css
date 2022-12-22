@@ -455,8 +455,8 @@ img {
 }
 
 .card_field {
-  margin-left: 30px;
-  margin-right: 30px;
+  /* margin-left: 30px;
+  margin-right: 30px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -467,6 +467,11 @@ img {
   max-width: 100%;
   width: 1000px;
   padding-left: 20px;
+}
+
+.work-experiences {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .work-experience-title {
