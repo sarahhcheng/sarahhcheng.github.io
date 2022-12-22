@@ -392,6 +392,12 @@ img {
   text-align: center;
 }
 
+.hand-wave {
+  display: inline-block;
+  border: none;
+  width: 60px;
+}
+
 .section__subtitle--work {
   color: var(--clr-accent);
   font-weight: var(--fw-bold);
@@ -455,8 +461,6 @@ img {
 }
 
 .card_field {
-  /* margin-left: 30px;
-  margin-right: 30px; */
   display: flex;
   align-items: center;
   justify-content: center;
