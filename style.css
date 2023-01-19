@@ -469,6 +469,7 @@ img {
 }
 
 .card-img {
+  padding-top: 20px;
   max-width: 100%;
   width: 1000px;
   padding-left: 20px;
@@ -485,7 +486,7 @@ img {
 }
 
 .card_field2 {
-  padding-top: 0px;
+  padding-top: 50px;
   padding-bottom: 70px;
 }
 
@@ -501,13 +502,20 @@ img {
   padding-bottom: 30px;
 }
 
-.card_field {
-  padding-right: 30px;
-  padding-left: 30px;
-}
-
 .work-title {
   font-size: 30px;
+  font-weight: 600;
+}
+
+.company {
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+
+.date {
+  padding-top: 10px;
+  font-weight: 600;
 }
 
 .container {
