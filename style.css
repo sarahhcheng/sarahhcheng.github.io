@@ -408,8 +408,17 @@ img {
 .hand-wave {
   display: inline-block;
   border: none;
-  width: 60px;
-  height: 50px;
+  width: 65px;
+  height: 65px;
+}
+
+@media (max-width: 800px) {
+  .hand-wave {
+    display: inline-block;
+    border: none;
+    width: 50px;
+    height: 50px;
+  }
 }
 
 .section__subtitle--work {
@@ -485,24 +494,20 @@ img {
   position: relative;
   padding-top: 20px;
   min-width: fit-content;
-  padding-left: 20px;
+  padding-left: 50px;
   max-width: 100%;
   width: 50%;
 }
 
 @media (max-width: 800px) {
   .card-img {
-    position: relative;
-    padding-top: 20px;
-    min-width: fit-content;
-    padding-left: 20px;
-    max-width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
   }
 }
+
 .work-experiences {
   max-width: 1000px;
   margin: 0 auto;
@@ -551,11 +556,19 @@ img {
   align-items: center;
   justify-content: center;
 }
-
 .about-me__img {
   width: 1000px;
   padding-top: 20px;
   padding-left: 20px;
+}
+
+@media (max-width: 800px) {
+  .about-me__img {
+    width: 1000px;
+    padding-top: 20px;
+    padding-left: 20px;
+    min-width: 50%;
+  }
 }
 
 /* Pop up boxes for projects! */
