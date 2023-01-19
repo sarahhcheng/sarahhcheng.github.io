@@ -479,6 +479,20 @@ img {
   margin: 0 auto;
 }
 
+.card_field1 {
+  padding-bottom: 70px;
+  padding-top: 20px;
+}
+
+.card_field2 {
+  padding-top: 0px;
+  padding-bottom: 70px;
+}
+
+.card_field3 {
+  padding-top: 40px;
+}
+
 .work-experience-title {
   text-align: center;
   margin-top: -50px;
@@ -507,3 +521,5 @@ img {
   padding-top: 20px;
   padding-left: 20px;
 }
+
+/* Pop up boxes for projects! */
