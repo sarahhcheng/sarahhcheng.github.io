@@ -398,6 +398,7 @@ img {
 
 .about-me__body {
   color: var(--clr-accent2);
+  max-width: 65%;
 }
 
 /* My work */
@@ -505,9 +506,9 @@ img {
 
 @media (max-width: 800px) {
   .card-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: inline-block;
+    padding-left: 0%;
+    margin: auto !important;
     width: 50%;
   }
 }
