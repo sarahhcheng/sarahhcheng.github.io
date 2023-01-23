@@ -247,12 +247,15 @@ header {
 
 .nav-open .hamburger {
   transform: rotate(0.625turn);
+  background: white;
 }
 .nav-open .hamburger::before {
   transform: rotate(90deg) translateX(-6px);
+  background: white;
 }
 .nav-open .hamburger::after {
   opacity: 100;
+  visibility: hidden;
 }
 
 .hamburger {
@@ -284,6 +287,7 @@ header {
 
 .hamburger::after {
   bottom: 6px;
+  /* background: white; */
 }
 
 /* Intro Section */
