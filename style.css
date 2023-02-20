@@ -102,7 +102,6 @@ img {
   max-width: 100%;
   box-shadow: var(--bs);
   border-radius: 10px;
-  border: 2px solid var(--clr-dark);
   box-shadow: #fff;
 }
 
@@ -426,9 +425,21 @@ header {
   margin-bottom: 2em;
 }
 
-.portfolio {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+#work .portfolio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 75%;
+  margin: auto;
+  background-color: var(--clr-dark);
+  color: var(--clr-bg);
+  min-height: 46vh;
+  text-align: center;
 }
 
 .portfolio a {
@@ -578,3 +589,70 @@ header {
 }
 
 /* Pop up boxes for projects! */
+
+#work .portfolio .project-item {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20rem;
+  grid-template-columns: 20rem;
+  -ms-grid-rows: 13rem 13rem 4rem;
+  grid-template-rows: 13rem 13rem 4rem;
+  grid-template-areas: "image" "desc" "buttons";
+  border-radius: 19px;
+  background: aliceblue;
+  text-align: center;
+  margin: 2rem;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+#work .portfolio .project-item:hover {
+  transform: translateY(-2%);
+}
+
+#work .portfolio .project-item .project-img {
+  -ms-grid-rows: 1;
+  -ms-grid-columns: 1;
+  grid-area: image;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  background-size: cover;
+}
+
+#work .portfolio .project-item .project-text {
+  -ms-grid-rows: 2;
+  -ms-grid-columns: 1;
+  grid-area: desc;
+  padding: 1.5rem;
+  color: #4e328f;
+}
+
+#work .portfolio .project-item .portfolio-text h3 {
+  padding: 0.5rem 0 1rem 0;
+  color: var(--clr-dark);
+}
+
+#work .portfolio .project-item .project-buttons {
+  -ms-grid-rows: 3;
+  -ms-grid-columns: 1;
+  grid-area: buttons;
+  display: block;
+  padding-top: 10px;
+}
+
+#work .portfolio .project-item .project-buttons a {
+  margin-left: 0.5rem;
+  text-decoration: none;
+  padding: 8px 24px;
+  outline: none;
+  border: none;
+  color: #4e328f;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  display: inline-block;
+  font-size: 1.2rem;
+}
+
+#work .portfolio .project-item .project-buttons a:hover {
+  transform: scale(1.2);
+}
