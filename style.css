@@ -599,7 +599,7 @@ header {
   grid-template-rows: 13rem 13rem 4rem;
   grid-template-areas: "image" "desc" "buttons";
   border-radius: 19px;
-  background: var(--clr-accent);
+  background: aliceblue;
   text-align: center;
   margin: 2rem;
   -webkit-transition: 0.3s ease;
@@ -632,10 +632,12 @@ header {
   color: var(--clr-dark);
 }
 
-#work .portfolio .project-item .card-buttons {
+#work .portfolio .project-item .project-buttons {
   -ms-grid-rows: 3;
   -ms-grid-columns: 1;
   grid-area: buttons;
+  display: block;
+  padding-top: 10px;
 }
 
 #work .portfolio .project-item .project-buttons a {
@@ -652,6 +654,5 @@ header {
 }
 
 #work .portfolio .project-item .project-buttons a:hover {
-  color: var(--light-blue);
   transform: scale(1.2);
 }
