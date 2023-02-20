@@ -632,6 +632,10 @@ header {
   color: var(--clr-dark);
 }
 
+.technology {
+  color: #00a8e1;
+}
+
 #work .portfolio .project-item .project-buttons {
   -ms-grid-rows: 3;
   -ms-grid-columns: 1;
@@ -646,7 +650,7 @@ header {
   padding: 8px 24px;
   outline: none;
   border: none;
-  color: #4e328f;
+  color: black;
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
   display: inline-block;
